@@ -1,0 +1,91 @@
+#page-landing {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-landing .page-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  max-width: 980px;
+  height: 100%;
+  max-height: 500px;
+  background: url('../../images/kids.svg') 80% center no-repeat;
+}
+
+#page-landing .page-wrapper > img {
+  cursor: pointer;
+}
+
+#page-landing .page-wrapper .page-wrapper__text h1 {
+  max-width: 350px;
+  font-size: 66px;
+  line-height: 60px;
+  font-weight: 900;
+}
+
+#page-landing .page-wrapper .page-wrapper__text p {
+  margin-top: 40px;
+  max-width: 350px;
+  font-size: 20px;
+  font-size: 16px;
+}
+
+#page-landing .page-wrapper .page-wrapper__location {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  text-align: right;
+}
+
+#page-landing .page-wrapper .page-wrapper__location strong {
+  font-weight: 800;
+}
+
+#page-landing .page-wrapper .page-wrapper__enter {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80px;
+  height: 80px;
+  background: #ffd666;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background .56s;
+  animation: animateEnter infinite 2s;
+  cursor: pointer;
+}
+
+#page-landing .page-wrapper .page-wrapper__enter:hover {
+  background: #96feff;
+}
+
+@keyframes animateEnter {
+  10%, 90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(5px, 0, 0);
+  }
+}

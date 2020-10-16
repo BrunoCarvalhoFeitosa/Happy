@@ -1,0 +1,108 @@
+#page-map {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+#page-map aside {
+  width: 448px;
+  padding: 80px;
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#page-map aside h2 {
+  margin-top: 64px;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 42px;
+}
+
+#page-map aside p {
+  margin-top: 24px;
+  line-height: 28px;
+}
+
+#page-map aside footer {
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+}
+
+#page-map aside footer strong {
+  font-weight: 800;
+}
+
+#page-map .page-createOrphanage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 40px;
+  bottom: 48px;
+  width: 64px;
+  height: 64px;
+  background: #15c3d6;
+  border-radius: 28px;
+  transition: background .56s;
+  z-index: 999;
+}
+
+#page-map .page-createOrphanage:hover {
+  background: #17d6eb;
+}
+
+#page-map .map-popup .leaflet-popup-content-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+#page-map .map-popup .leaflet-popup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0089a5;
+}
+
+#page-map .map-popup .leaflet-popup-content a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #15c3d6;
+  box-shadow: 17.2868px 27.6589px 41.4884px rgba(23, 142, 166, 0.16);
+  border-radius: 12px;
+}
+
+#page-map .map-popup .leaflet-popup-content a:hover {
+  animation: animateButton 1.5s infinite;
+}
+
+#page-map .map-popup .leaflet-popup-tip-container {
+  display: none;
+}
+
+@keyframes animateButton {
+  10%, 90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(5px, 0, 0);
+  }
+}
