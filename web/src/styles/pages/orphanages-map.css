@@ -46,7 +46,7 @@
   width: 64px;
   height: 64px;
   background: #15c3d6;
-  border-radius: 28px;
+  border-radius: 50px;
   transition: background .56s;
   z-index: 999;
 }

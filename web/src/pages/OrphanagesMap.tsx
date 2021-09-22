@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { FiPlus, FiArrowRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
+import { FiPlus, FiArrowRight } from 'react-icons/fi';
+import api from '../services/api';
 import mapMarkerImg from '../images/map-marker.svg';
 import mapIcon from '../utils/iconMap';
+
 import '../styles/pages/orphanages-map.css';
-import api from '../services/api';
 
 interface Orphanage {
   id: number;
@@ -40,7 +41,7 @@ function OrphanagesMap() {
       </aside>
       
       <Map
-        center={[-23.6869281, -46.6222821]}
+        center={[-23.6857016, -46.6223104]}
         zoom={15}
         style={{ width: '100%', height: '100%' }}
         >
