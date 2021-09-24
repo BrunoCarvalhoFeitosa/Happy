@@ -55,7 +55,7 @@ Este app foi feito em React.js para web, React Native para mobile e possui backe
 
 ### Hospedagem
 
-O app ainda não foi hospedado em nenhuma plataforma, porém você poderá cloná-lo. Basta acompoanhar o próximo tópico.
+O app ainda não foi hospedado em nenhuma plataforma, porém você poderá cloná-lo. Basta acompanhar o próximo tópico.
 
 
 <!-- GETTING STARTED -->
