@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/BrunoCarvalhoFeitosa/Happy">
-    <img src="https://user-images.githubusercontent.com/46093815/134265103-ce800ba9-3664-4f94-9359-d7bbc3cf01c7.png" alt="Logo" />
+    <img src="https://user-images.githubusercontent.com/46093815/134265103-ce800ba9-3664-4f94-9359-d7bbc3cf01c7.png" alt="Logo" width="200" height="60" />
   </a>
 
   <p align="center">
